@@ -5,7 +5,7 @@ option go_package = "./service2";
 package service1;
 
 service GreetingService {
-  rpc SayHelloService2 (HelloRequest) returns (HelloResponse);
+  rpc SayHelloServiceTwo(HelloRequest) returns (HelloResponse);
 }
 
 message HelloRequest {
